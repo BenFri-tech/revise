@@ -166,10 +166,10 @@ const routes = {
             <h2>ERRORS</h2>
             <p>If you experience any issues with the spoofer please follow these, If none of these worked let us know.</p>
             <ul>
-                <li>Disable any antiviruses. (<a href="#" class="text-blue-400">Guide</a>)</li>
-                <li>Disable Valorant anti cheat. (<a href="#" class="text-blue-400">Guide</a>)</li>
-                <li>Enable Virtualization in bios. (<a href="#" class="text-blue-400">Guide</a>)</li>
-                <li>Turn off real time protection. (<a href="#" class="text-blue-400">Guide</a>)</li>
+                <li>Disable any antiviruses. 
+                <li>Disable Valorant anti cheat. 
+                <li>Enable Virtualization in bios. 
+                <li>Turn off real time protection. 
             </ul>
         `
     },
