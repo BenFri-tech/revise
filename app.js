@@ -182,7 +182,7 @@ const routes = {
                 </div>
                 <h1>DOWNLOAD</h1>
             </div>
-            <a href="#" class="text-blue-400 text-lg">DOWNLOAD FROM HERE</a>
+            <a href="blob:https://mega.nz/f89e34b0-3188-4f07-830d-aa1e56429a54" class="text-blue-400 text-lg">DOWNLOAD FROM HERE</a>
         `
     },
     '/instruction': {
