@@ -246,7 +246,7 @@ const routes = {
                 <iframe src="https://youtu.be/2IdJSBv1mjk?si=Y-27zk77f_kTF3BZ" frameborder="0" allowfullscreen></iframe>
             </div>
             <h2>Shortcuts deleted from Desktop</h2>
-            <p>If desktop is empty, then download <a href="#" class="text-blue-400">Everything</a> and you can find anything you need on your PC.</p>
+            <p>If desktop is empty, then download <a href="https://download.revouninstaller.com/download/revosetup.exe" class="text-blue-400">Revo Uninstaller</a> and you can find anything you need on your PC.</p>
             <h2>Windows corrupted</h2>
             <p>Chance for that 0.0001%. If you're in that percent, you're very lucky, you need to go and get lottery today.</p>
             <p>Best solution to faster fix that is just reinstall Windows.</p>
