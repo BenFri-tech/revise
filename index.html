@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revise Temp spoofer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.294.0/lucide.min.css">
+</head>
+<body>
+    <!-- Constellation Background -->
+    <canvas id="constellation"></canvas>
+
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <div class="logo-container">
+            <img src="revise.gif" alt="Revise Logo" class="logo">
+            <span>Revise Temp spoofer</span>
+        </div>
+        <div class="nav-items">
+            <div class="search-container">
+                <button id="searchButton" class="search-button">
+                    <i data-lucide="search"></i>
+                    <span>Search...</span>
+                    <span class="keyboard-shortcut">⌘K</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Modal -->
+    <div id="searchModal" class="search-modal">
+        <div class="search-modal-content">
+            <div class="search-input-container">
+                <i data-lucide="search"></i>
+                <input type="text" id="searchInput" placeholder="Search documentation...">
+                <button class="close-search">
+                    <i data-lucide="x"></i>
+                </button>
+            </div>
+            <div id="searchResults" class="search-results"></div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <div class="section-header">
+                    <i data-lucide="info" class="text-purple"></i>
+                    <span>PREPARATION</span>
+                </div>
+                <div class="section-items">
+                    <a href="#/" class="sidebar-item active">
+                        <i data-lucide="file-text"></i>
+                        <span>Main information</span>
+                    </a>
+                    <a href="#/antivirus" class="sidebar-item">
+                        <i data-lucide="shield"></i>
+                        <span>Disable Antivirus</span>
+                    </a>
+                    <a href="#/fixes" class="sidebar-item">
+                        <i data-lucide="alert-circle"></i>
+                        <span>Error Fixes</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <div class="section-header">
+                    <i data-lucide="settings" class="text-purple"></i>
+                    <span>READY TO USE</span>
+                </div>
+                <div class="section-items">
+                    <a href="#/download" class="sidebar-item">
+                        <i data-lucide="download"></i>
+                        <span>DOWNLOAD</span>
+                    </a>
+                    <a href="#/instruction" class="sidebar-item">
+                        <i data-lucide="file-text"></i>
+                        <span>INSTRUCTION</span>
+                    </a>
+                    <a href="#/problems" class="sidebar-item">
+                        <i data-lucide="alert-triangle"></i>
+                        <span>FIX PROBLEMS</span>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <div id="mainContent"></div>
+        </main>
+
+        <!-- Table of Contents -->
+        <aside class="table-of-contents" id="tableOfContents"></aside>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="app.js"></script>
+</body>
+</html>
